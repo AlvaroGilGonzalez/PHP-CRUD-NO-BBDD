@@ -1,0 +1,105 @@
+body{
+    margin:0;
+    background-color:#d1ccb8;
+}
+
+h1{
+    color: white;
+    background-color: #665A48;
+    text-align: center;
+    margin:0;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-size: 50px;
+}
+
+.menuPrincipal{
+    margin-top: 3em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.menuPrincipal input{
+    color:black;
+    background-color:#C8DBBE;
+    font-size:20px;
+    border-radius: 20px;
+    padding: 1em;
+}
+
+.menuPrincipal input:hover{
+    color: white;
+    background-color: #665A48;
+}
+
+.contenido{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 2em;
+}
+
+.contenido p.error{
+    background-color: brown;
+    color:white;
+    border-radius: 20px;
+    padding: 1em;
+    text-align: center;
+    margin-bottom: 3em;
+}
+
+.contenido p.aviso{
+    background-color:#9F8772;
+    color: white;
+    border-radius: 20px;
+    padding: 1em;
+    text-align: center;
+    margin-bottom: 3em;
+}
+
+.contenido p.completado{
+    background-color:olivedrab;
+    color: white;
+    border-radius: 20px;
+    padding: 1em;
+    text-align: center;
+    margin-bottom: 3em;
+}
+
+.contenido input{
+    margin-bottom: 30px;
+}
+
+.contenido input.submit{
+    background-color:yellowgreen;
+    border-radius: 20px;
+    padding: 1em;
+}
+
+.contenido input.submit:hover{
+    color: white;
+    background-color: #665A48;
+}
+
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+tr,th,td{
+    border: 1px solid black;
+    padding: 1em;
+}
+
+th{
+    background-color:#9F8772;
+    color: white;
+}
+
+.precioTotal{
+    background-color:#EDE4E0;
+}
+
